@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Table with CSS</title>
+        <style>
+            #secondTableUsingIdConcept
+            { 
+                width:20%; 
+                margin-left:auto; 
+                margin-right:auto; 
+                border:1px solid black;
+            }
+            #secondTableColumnUsingIdConcept
+            { 
+                border: 1px solid black;
+                padding:5px;
+                
+            }
+            #secondTableParagraphUsingIdConcept
+            { 
+                text-align:center;
+                font-weight: bold;
+            }
+        </style>
+        <link rel="stylesheet"href="style.css">
+    </head>
+    <body>
+        
+        <!-- Header at center -->
+        <h1 style="text-align:center;">2008 OFFICERS</h1>
+
+        <!-- Styling using inline styles. -->
+        <!-- Table 1 starts here -->
+        <!-- Table at center with border-->
+        <table style="width:40%; margin-left:auto; margin-right:auto; border:1px solid black;">
+
+             <!-- Each row with border-->
+            <tr>
+                <td style="border: 1px solid black;padding:5px;" colspan="3"><p style="text-align:center;font-weight: bold;">Current Officers</p></td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black;padding:5px;"><p>President</p></td>
+                <td style="border: 1px solid black;padding:5px;"><p>Jesse Blair</p></td>
+                <td style="border: 1px solid black;padding:5px;"><p>555-7189</p></td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black;padding:5px;"><p>Vice-President</p></td>
+                <td style="border: 1px solid black;padding:5px;"><p>Frank Smythe</p></td>
+                <td style="border: 1px solid black;padding:5px;"><p>505-555-3576</p></td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black;padding:5px;"><p>Secretary</p></td>
+                <td style="border: 1px solid black;padding:5px;"><p>Jean Darr</p></td>
+                <td style="border: 1px solid black;padding:5px;"><p>555-5415</p></td>
+            </tr>
+             <tr>
+                <td style="border: 1px solid black;padding:5px;"><p>Treasurer</p></td>
+                <td style="border: 1px solid black;padding:5px;"><p>Linda Carter</p></td>
+                <td style="border: 1px solid black;padding:5px;"><p>555-9653</p></td>
+            </tr>
+
+        </table>
+        <br>
+        <!-- Table 1 ends here -->
+
+
+
+        <!-- Styling using embedded styles. -->
+        <!-- Table 2 starts here -->
+        <!-- Table at center with border-->
+        <table id="secondTableUsingIdConcept">
+
+             <!-- Each row with border-->
+            <tr>
+                <td id="secondTableColumnUsingIdConcept" colspan="2"><p id="secondTableParagraphUsingIdConcept">Board Members at Large</p></td>
+            </tr>
+            <tr>
+                <td id="secondTableColumnUsingIdConcept"><p>Dick Wilson</p></td>
+                <td id="secondTableColumnUsingIdConcept"><p>555-1982</p></td>
+            </tr>
+            <tr>
+                <td id="secondTableColumnUsingIdConcept"><p>Jan Davis</p></td>
+                <td id="secondTableColumnUsingIdConcept"><p>555-3530</p></td>
+            </tr>
+
+        </table>
+        <br>
+        <!-- Table 2 ends here -->
+
+        <!-- Styling using external style sheet. -->
+        <!-- Table 3 starts here -->
+        <!-- Table at center with border-->
+        <table class="thirdTableUsingClassConcept">
+
+             <!-- Each row with border-->
+            <tr>
+                <td class="thirdTableColumnUsingClassConcept" colspan="2"><p class="thirdTableParagraphUsingClassConcept">Calling Committee</p></td>
+            </tr>
+            <tr>
+                <td class="thirdTableColumnUsingClassConcept"><p class="thirdTableParagraphUsingClassConceptLeft">Chairman:Harry Bean</p></td>
+                <td class="thirdTableColumnUsingClassConcept"><p class="thirdTableParagraphUsingClassConceptLeft">555-7388</p></td>
+            </tr>
+            <tr>
+                <td class="thirdTableColumnUsingClassConcept"><p>Hoot Gibson</p></td>
+                <td class="thirdTableColumnUsingClassConcept"><p>555-2952</p></td>
+            </tr>
+             <tr>
+                <td class="thirdTableColumnUsingClassConcept"><p>Sam Akad</p></td>
+                <td class="thirdTableColumnUsingClassConcept"><p>555-7897</p></td>
+            </tr>
+             <tr>
+                <td class="thirdTableColumnUsingClassConcept"><p>Joe Carter</p></td>
+                <td class="thirdTableColumnUsingClassConcept"><p>555-9653</p></td>
+            </tr>
+             <tr>
+                <td class="thirdTableColumnUsingClassConcept"><p>Betty Alexander</p></td>
+                <td class="thirdTableColumnUsingClassConcept"><p>555-5287</p></td>
+            </tr>
+             <tr>
+                <td class="thirdTableColumnUsingClassConcept"><p>Jerry Bear</p></td>
+                <td class="thirdTableColumnUsingClassConcept"><p>555-9162</p></td>
+            </tr>
+             <tr>
+                <td class="thirdTableColumnUsingClassConcept"><p>Linda Carter</p></td>
+                <td class="thirdTableColumnUsingClassConcept"><p>555-9653</p></td>
+            </tr>
+             <tr>
+                <td class="thirdTableColumnUsingClassConcept"><p>Joe Vaughn</p></td>
+                <td class="thirdTableColumnUsingClassConcept"><p>555-7815</p></td>
+            </tr>
+             <tr>
+                <td class="thirdTableColumnUsingClassConcept"><p>Charlyne Fields</p></td>
+                <td class="thirdTableColumnUsingClassConcept"><p>555-7695</p></td>
+            </tr>
+             <tr>
+                <td class="thirdTableColumnUsingClassConcept"><p>Margie Digison</p></td>
+                <td class="thirdTableColumnUsingClassConcept"><p>555-6236</p></td>
+            </tr>
+             <tr>
+                <td class="thirdTableColumnUsingClassConcept"><p>Arnold Treadway</p></td>
+                <td class="thirdTableColumnUsingClassConcept"><p>555-8916</p></td>
+            </tr>
+             <tr>
+                <td class="thirdTableColumnUsingClassConcept"><p>Bob Webb</p></td>
+                <td class="thirdTableColumnUsingClassConcept"><p>555-9825</p></td>
+            </tr>
+             <tr>
+                <td class="thirdTableColumnUsingClassConcept"><p>Jan Davis</p></td>
+                <td class="thirdTableColumnUsingClassConcept"><p>555-3530</p></td>
+            </tr>
+
+        </table>
+        <br>
+        <!-- Table 3 ends here -->
+
+
+    </body>
+</html>
+
